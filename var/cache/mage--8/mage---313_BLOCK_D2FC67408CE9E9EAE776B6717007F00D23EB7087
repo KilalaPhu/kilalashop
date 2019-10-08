@@ -1,0 +1,238 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1570524389;s:6:"expire";i:1570527989;s:4:"tags";s:47:"313_STORE,313_CMS_BLOCK,313_BLOCK_HTML,313_MAGE";}
+
+<div class="footer-container footer-style-2">
+    <div class="footer-row1">
+        <div class="container">
+            <div class="row">
+                <div class="footer-newsletter col-lg-8 col-md-7 col-sm-7 col-xs-12">
+                    <div class="block-subscribe-footer">
+    <div class="title-middle-footer">
+        sign up for newsletter    </div>
+    <form class="form subscribe"
+          novalidate
+          action="http://magento.2.1.18.local/index.php/newsletter/subscriber/new/"
+          method="post"
+          data-mage-init='{"validation": {"errorClass": "mage-error"}}'
+          id="newsletter-validate-detail-footer">
+
+        <div class="input-box">
+            <input class="input-text" name="email" type="email" id="newsletter-footer"
+                   placeholder="Enter your email address"
+                   data-validate="{required:true, 'validate-email':true}"/>
+        </div>
+
+        <div class="action-button">
+            <button class="action subscribe primary" title="Subscribe" type="submit">
+				<span>Subscribe</span>
+            </button>
+        </div>
+    </form>
+</div>
+                </div>
+                <div class="footer-socials col-lg-4 col-md-5 col-sm-5 col-xs-12">
+                    <div class="socials-wrap">
+    <div class="title-follow">Follow Us</div>
+    <p class="hidden f7-social">Receive style news and promotion updates.</p>
+    <ul>
+                    <li class="li-social facebook-social">
+                <a title="Facebook"
+                   href="http://www.facebook.com/MagenTech" target="_blank">
+                    <span class="fa fa-facebook icon-social"></span><span
+                            class="name-social">Facebook</span>
+                </a>
+            </li>
+        
+                    <li class="li-social twitter-social">
+                <a title="Twitter"
+                   href="https://twitter.com/magentech" target="_blank">
+                    <span class="fa fa-twitter icon-social"></span> <span
+                            class="name-social">Twitter</span>
+                </a>
+            </li>
+        
+                    <li class="li-social google-social">
+                <a title="Google+"
+                   href="https://plus.google.com/u/0/+Smartaddons" target="_blank">
+                    <span class="fa fa-google-plus icon-social"></span> <span
+                            class="name-social">Google+</span>
+                </a>
+            </li>
+        
+                    <li class="li-social linkedin-social">
+                <a title="Linkedin"
+                   href="#" target="_blank">
+                    <span class="fa fa-linkedin icon-social"></span> <span
+                            class="name-social">Linkedin</span>
+                </a>
+            </li>
+        
+                    <li class="li-social pinterest-social">
+                <a title="Pinterest"
+                   href="#" target="_blank">
+                    <span class="fa fa-pinterest icon-social"></span> <span
+                            class="name-social">Pinterest</span>
+                </a>
+            </li>
+            </ul>
+</div>                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer-row2">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="spotlight spotlight1">
+                                <div class="footer-block">
+	<div class="footer-block-title">
+		<h3>Our Shop</h3>
+	</div>
+	<div class="footer-block-content">
+		<ul class="links-footer">
+		<li><a title="Shipping Policy" href="#">Product Support</a></li>
+		<li><a title="Compensation First" href="#">PC Setup & Support</a></li>
+		<li><a title="My Account" href="http://magento.2.1.18.local/index.php/customer/account">Services</a></li>
+		<li><a title="Return Policy" href="#">Return Policy</a></li>
+		<li><a title="Contact Us" href="http://magento.2.1.18.local/index.php/contact-us.html">Community</a></li>
+		</ul>
+	</div>
+</div>                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="spotlight spotlight2">
+                                <div class="footer-block">
+<div class="footer-block-title">
+<h3>Your link</h3>
+</div>
+<div class="footer-block-content">
+<ul class="links-footer">
+<li><a title="Terms of Use" href="#">Terms of Use</a></li>
+<li><a title="Payment Methods" href="#">Payment Methods</a></li>
+<li><a title="Shipping Guide" href="#">Shipping Guide</a></li>
+<li><a title="Locations We Ship To" href="#">Locations We Ship To</a></li>
+<li><a title="Estimated Delivery Time" href="#">Estimated Delivery Time</a></li>
+</ul>
+</div>
+</div>                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="spotlight spotlight3">
+                                <div class="footer-block">
+	<div class="footer-block-title">
+		<h3>Support</h3>
+	</div>
+	<div class="footer-block-content">
+		<ul class="links-footer">
+		<li><a title="Shipping Policy" href="#">Product Support</a></li>
+		<li><a title="Compensation First" href="#">PC Setup & Support</a></li>
+		<li><a title="My Account" href="http://magento.2.1.18.local/index.php/customer/account">Services</a></li>
+		<li><a title="Return Policy" href="#">Extended Service Plans</a></li>
+		<li><a title="Contact Us" href="http://magento.2.1.18.local/index.php/contact-us.html">Community</a></li>
+		</ul>
+	</div>
+</div>                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="spotlight spotlight4">
+                                <div class="footer-block">
+	<div class="footer-block-title">
+		<h3>My Account</h3>
+	</div>
+	<div class="footer-block-content">
+		<ul class="links-footer">
+			<li><a title="Contact Us" href="http://magento.2.1.18.local/index.php/contact-us.html">Contact Us</a></li>
+			<li><a title="About Us" href="http://magento.2.1.18.local/index.php/about-us.html">About Us</a></li>
+			<li><a title="FAQ" href="#">F.A.Q</a></li>
+			<li><a title="Help Center" href="#">Help Center</a></li>
+			<li><a title="Privacy Policy" href="#">Privacy Policy</a></li>			
+		</ul>
+	</div>
+</div>                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="spotlight spotlight5">
+                        <div class="footer-block">
+<div class="footer-block-title">
+<h3>Contact Us</h3>
+</div>
+<div class="footer-block-content">
+<ul class="links-contact">
+<li class="add-icon">Address: No 40 Baria Sreet 133/2 NewYork City, NY, United States</li>
+<li class="email-icon middle-content">Email: contact@revo.com</li>
+<li class="phone-icon">Phone 1 : 0123456789<br />Phone 2 : 0123456789</li>
+</ul>
+</div>
+</div>                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="categories-footer">
+            <div class="footer-cates-w">
+<nav role='navigation'>
+<a href="#">Home</a>
+<a href="#">Categories</a>
+<a href="#">Mobiles</a>
+<a href="#">Electronics</a>
+<a href="#">Accessories</a>
+<a href="#">Laptop</a>
+<a href="#">About us</a>
+<a href="#">Help</a>
+</nav>
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+</div>        </div>
+    </div>
+
+
+    <div class="footer-bottom">
+        <div class="container">
+
+            <div class="copyright-footer">
+                                    <address>SM Revo &copy; 2019
+                    Demo Store. All Rights Reserved. Designed by
+                    <a title="MagenTech.Com" target="_blank" href="http://www.MagenTech.Com">MagenTech.Com</a>
+                </address>
+                            </div>
+
+            <div class="footer-payment">
+                <img src="http://magento.2.1.18.local/pub/media/wysiwyg/payment/payment1.png" alt="Payment" />
+<img src="http://magento.2.1.18.local/pub/media/wysiwyg/payment/payment2.png" alt="Payment" />            </div>
+
+        </div>
+    </div>
+
+
+            <a id="yt-totop" href="javascript:void(0)" title="Go to Top"></a>
+        <script type="text/javascript">
+            require([
+                'jquery'
+            ], function ($) {
+                $("#yt-totop").hide();
+                $(function () {
+                    var wh = $(window).height();
+                    var whtml = $(document).height();
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > whtml / 10) {
+                            $('#yt-totop').fadeIn();
+                        } else {
+                            $('#yt-totop').fadeOut();
+                        }
+                    });
+                    $('#yt-totop').click(function () {
+                        $('body,html').animate({
+                            scrollTop: 0
+                        }, 800);
+                        return false;
+                    });
+                });
+            });
+        </script>
+    
+</div>
+
+
+
+

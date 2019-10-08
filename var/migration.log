@@ -1,0 +1,631 @@
+[2019-09-27 04:15:35][INFO][mode: settings][stage: integrity check][step: Settings Step]: started
+[2019-09-27 04:15:35][INFO][mode: settings][stage: integrity check][step: Stores Step]: started
+[2019-09-27 04:15:35][INFO][mode: settings][stage: data migration][step: Settings Step]: started
+[2019-09-27 04:18:45][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 04:18:48][ERROR]: Foreign key (FK_CATALOG_EAV_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 903 from `catalog_eav_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 04:18:48][ERROR]: Foreign key (FK_CAT_PRD_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID) constraint fails. Orphan records id: 903 from `catalog_product_entity_int`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 04:18:48][ERROR]: Foreign key (FK_CORE_LYT_LNK_LYT_UPDATE_ID_CORE_LYT_UPDATE_LYT_UPDATE_ID) constraint fails. Orphan records id: 41 from `core_layout_link`.`layout_update_id` has no referenced records in `core_layout_update`
+[2019-09-27 04:18:48][ERROR]: Foreign key (FK_EAV_ATTRIBUTE_ENTITY_TYPE_ID_EAV_ENTITY_TYPE_ENTITY_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 04:18:48][ERROR]: Foreign key (FK_EAV_ATTR_SET_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute_set`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 04:18:48][ERROR]: Foreign key (FK_EAV_ENTITY_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 202,213,706,732,903,944 from `eav_entity_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 04:18:48][ERROR]: Foreign key (FK_TAG_FIRST_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID) constraint fails. Orphan records id: 0 from `tag`.`first_customer_id` has no referenced records in `customer_entity`
+[2019-09-27 04:18:48][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 04:18:48][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 04:18:48][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 04:18:52][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 04:18:52][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 04:18:52][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 04:18:52][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 04:18:52][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 04:18:52][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 04:18:52][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 04:18:52][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 04:18:52][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 04:20:45][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 04:20:47][ERROR]: Foreign key (FK_CATALOG_EAV_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 903 from `catalog_eav_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 04:20:47][ERROR]: Foreign key (FK_CAT_PRD_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID) constraint fails. Orphan records id: 903 from `catalog_product_entity_int`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 04:20:47][ERROR]: Foreign key (FK_CORE_LYT_LNK_LYT_UPDATE_ID_CORE_LYT_UPDATE_LYT_UPDATE_ID) constraint fails. Orphan records id: 41 from `core_layout_link`.`layout_update_id` has no referenced records in `core_layout_update`
+[2019-09-27 04:20:47][ERROR]: Foreign key (FK_EAV_ATTRIBUTE_ENTITY_TYPE_ID_EAV_ENTITY_TYPE_ENTITY_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 04:20:47][ERROR]: Foreign key (FK_EAV_ATTR_SET_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute_set`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 04:20:47][ERROR]: Foreign key (FK_EAV_ENTITY_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 202,213,706,732,903,944 from `eav_entity_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 04:20:47][ERROR]: Foreign key (FK_TAG_FIRST_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID) constraint fails. Orphan records id: 0 from `tag`.`first_customer_id` has no referenced records in `customer_entity`
+[2019-09-27 04:20:47][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 04:20:48][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 04:20:48][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 04:20:51][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 04:20:51][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 04:20:51][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 04:20:51][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 04:20:51][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 04:20:51][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 04:20:51][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 04:20:51][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 04:20:51][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 07:12:23][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 07:12:26][ERROR]: Foreign key (FK_CATALOG_EAV_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 903 from `catalog_eav_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:12:26][ERROR]: Foreign key (FK_CAT_PRD_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID) constraint fails. Orphan records id: 903 from `catalog_product_entity_int`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:12:26][ERROR]: Foreign key (FK_CORE_LYT_LNK_LYT_UPDATE_ID_CORE_LYT_UPDATE_LYT_UPDATE_ID) constraint fails. Orphan records id: 41 from `core_layout_link`.`layout_update_id` has no referenced records in `core_layout_update`
+[2019-09-27 07:12:26][ERROR]: Foreign key (FK_EAV_ATTRIBUTE_ENTITY_TYPE_ID_EAV_ENTITY_TYPE_ENTITY_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 07:12:26][ERROR]: Foreign key (FK_EAV_ATTR_SET_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute_set`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 07:12:26][ERROR]: Foreign key (FK_EAV_ENTITY_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 202,213,706,732,903,944 from `eav_entity_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:12:26][ERROR]: Foreign key (FK_TAG_FIRST_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID) constraint fails. Orphan records id: 0 from `tag`.`first_customer_id` has no referenced records in `customer_entity`
+[2019-09-27 07:12:26][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 07:12:26][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 07:12:27][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 07:12:31][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 07:12:31][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 07:12:31][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 07:12:31][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 07:12:31][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 07:12:31][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 07:12:31][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 07:12:31][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 07:12:31][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 07:25:12][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 07:25:14][ERROR]: Foreign key (FK_CATALOG_EAV_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 903 from `catalog_eav_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:25:14][ERROR]: Foreign key (FK_CAT_PRD_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID) constraint fails. Orphan records id: 903 from `catalog_product_entity_int`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:25:14][ERROR]: Foreign key (FK_CORE_LYT_LNK_LYT_UPDATE_ID_CORE_LYT_UPDATE_LYT_UPDATE_ID) constraint fails. Orphan records id: 41 from `core_layout_link`.`layout_update_id` has no referenced records in `core_layout_update`
+[2019-09-27 07:25:14][ERROR]: Foreign key (FK_EAV_ATTRIBUTE_ENTITY_TYPE_ID_EAV_ENTITY_TYPE_ENTITY_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 07:25:14][ERROR]: Foreign key (FK_EAV_ATTR_SET_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute_set`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 07:25:14][ERROR]: Foreign key (FK_EAV_ENTITY_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 202,213,706,732,903,944 from `eav_entity_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:25:14][ERROR]: Foreign key (FK_TAG_FIRST_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID) constraint fails. Orphan records id: 0 from `tag`.`first_customer_id` has no referenced records in `customer_entity`
+[2019-09-27 07:25:14][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 07:25:14][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 07:25:14][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 07:25:18][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 07:25:18][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 07:25:18][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 07:25:18][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 07:25:18][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 07:25:18][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 07:25:18][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 07:25:18][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 07:25:18][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 07:32:51][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 07:32:53][ERROR]: Foreign key (FK_CATALOG_EAV_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 903 from `catalog_eav_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:32:53][ERROR]: Foreign key (FK_CAT_PRD_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID) constraint fails. Orphan records id: 903 from `catalog_product_entity_int`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:32:53][ERROR]: Foreign key (FK_CORE_LYT_LNK_LYT_UPDATE_ID_CORE_LYT_UPDATE_LYT_UPDATE_ID) constraint fails. Orphan records id: 41 from `core_layout_link`.`layout_update_id` has no referenced records in `core_layout_update`
+[2019-09-27 07:32:53][ERROR]: Foreign key (FK_EAV_ATTRIBUTE_ENTITY_TYPE_ID_EAV_ENTITY_TYPE_ENTITY_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 07:32:53][ERROR]: Foreign key (FK_EAV_ATTR_SET_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute_set`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 07:32:53][ERROR]: Foreign key (FK_EAV_ENTITY_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 202,213,706,732,903,944 from `eav_entity_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:32:53][ERROR]: Foreign key (FK_TAG_FIRST_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID) constraint fails. Orphan records id: 0 from `tag`.`first_customer_id` has no referenced records in `customer_entity`
+[2019-09-27 07:32:53][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 07:32:54][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 07:32:54][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 07:32:57][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 07:32:57][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 07:32:57][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 07:32:57][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 07:32:57][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 07:32:57][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 07:32:57][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 07:32:57][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 07:32:57][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 07:42:54][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 07:42:57][ERROR]: Foreign key (FK_CATALOG_EAV_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 903 from `catalog_eav_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:42:57][ERROR]: Foreign key (FK_CAT_PRD_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID) constraint fails. Orphan records id: 903 from `catalog_product_entity_int`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:42:57][ERROR]: Foreign key (FK_CORE_LYT_LNK_LYT_UPDATE_ID_CORE_LYT_UPDATE_LYT_UPDATE_ID) constraint fails. Orphan records id: 41 from `core_layout_link`.`layout_update_id` has no referenced records in `core_layout_update`
+[2019-09-27 07:42:57][ERROR]: Foreign key (FK_EAV_ATTRIBUTE_ENTITY_TYPE_ID_EAV_ENTITY_TYPE_ENTITY_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 07:42:57][ERROR]: Foreign key (FK_EAV_ATTR_SET_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute_set`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 07:42:57][ERROR]: Foreign key (FK_EAV_ENTITY_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 202,213,706,732,903,944 from `eav_entity_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:42:57][ERROR]: Foreign key (FK_TAG_FIRST_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID) constraint fails. Orphan records id: 0 from `tag`.`first_customer_id` has no referenced records in `customer_entity`
+[2019-09-27 07:42:57][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 07:42:57][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 07:42:57][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 07:43:00][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 07:43:00][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 07:43:00][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 07:43:00][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 07:43:00][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 07:43:00][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 07:43:00][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 07:43:00][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 07:43:00][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 07:46:38][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 07:46:40][ERROR]: Foreign key (FK_CATALOG_EAV_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 903 from `catalog_eav_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:46:40][ERROR]: Foreign key (FK_CAT_PRD_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID) constraint fails. Orphan records id: 903 from `catalog_product_entity_int`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:46:40][ERROR]: Foreign key (FK_CORE_LYT_LNK_LYT_UPDATE_ID_CORE_LYT_UPDATE_LYT_UPDATE_ID) constraint fails. Orphan records id: 41 from `core_layout_link`.`layout_update_id` has no referenced records in `core_layout_update`
+[2019-09-27 07:46:40][ERROR]: Foreign key (FK_EAV_ATTRIBUTE_ENTITY_TYPE_ID_EAV_ENTITY_TYPE_ENTITY_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 07:46:40][ERROR]: Foreign key (FK_EAV_ATTR_SET_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute_set`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 07:46:40][ERROR]: Foreign key (FK_EAV_ENTITY_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 202,213,706,732,903,944 from `eav_entity_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:46:40][ERROR]: Foreign key (FK_TAG_FIRST_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID) constraint fails. Orphan records id: 0 from `tag`.`first_customer_id` has no referenced records in `customer_entity`
+[2019-09-27 07:46:40][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 07:46:40][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 07:46:40][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 07:46:44][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 07:46:44][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 07:46:44][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 07:46:44][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 07:46:44][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 07:46:44][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 07:46:44][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 07:46:44][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 07:46:44][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 07:50:11][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 07:50:13][ERROR]: Foreign key (FK_CATALOG_EAV_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 903 from `catalog_eav_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:50:13][ERROR]: Foreign key (FK_CAT_PRD_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID) constraint fails. Orphan records id: 903 from `catalog_product_entity_int`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:50:13][ERROR]: Foreign key (FK_CORE_LYT_LNK_LYT_UPDATE_ID_CORE_LYT_UPDATE_LYT_UPDATE_ID) constraint fails. Orphan records id: 41 from `core_layout_link`.`layout_update_id` has no referenced records in `core_layout_update`
+[2019-09-27 07:50:13][ERROR]: Foreign key (FK_EAV_ATTRIBUTE_ENTITY_TYPE_ID_EAV_ENTITY_TYPE_ENTITY_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 07:50:13][ERROR]: Foreign key (FK_EAV_ATTR_SET_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute_set`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 07:50:13][ERROR]: Foreign key (FK_EAV_ENTITY_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 202,213,706,732,903,944 from `eav_entity_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:50:13][ERROR]: Foreign key (FK_TAG_FIRST_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID) constraint fails. Orphan records id: 0 from `tag`.`first_customer_id` has no referenced records in `customer_entity`
+[2019-09-27 07:50:13][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 07:50:13][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 07:50:13][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 07:50:17][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 07:50:17][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 07:50:17][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 07:50:17][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 07:50:17][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 07:50:17][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 07:50:17][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 07:50:17][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 07:50:17][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 07:57:55][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 07:57:57][ERROR]: Foreign key (FK_CAT_PRD_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID) constraint fails. Orphan records id: 903 from `catalog_product_entity_int`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:57:57][ERROR]: Foreign key (FK_CORE_LYT_LNK_LYT_UPDATE_ID_CORE_LYT_UPDATE_LYT_UPDATE_ID) constraint fails. Orphan records id: 41 from `core_layout_link`.`layout_update_id` has no referenced records in `core_layout_update`
+[2019-09-27 07:57:57][ERROR]: Foreign key (FK_EAV_ATTRIBUTE_ENTITY_TYPE_ID_EAV_ENTITY_TYPE_ENTITY_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 07:57:57][ERROR]: Foreign key (FK_EAV_ATTR_SET_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute_set`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 07:57:57][ERROR]: Foreign key (FK_EAV_ENTITY_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 202,213,706,732,903,944 from `eav_entity_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 07:57:57][ERROR]: Foreign key (FK_TAG_FIRST_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID) constraint fails. Orphan records id: 0 from `tag`.`first_customer_id` has no referenced records in `customer_entity`
+[2019-09-27 07:57:57][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 07:57:57][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 07:57:57][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 07:58:00][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 07:58:00][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 07:58:00][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 07:58:00][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 07:58:01][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 07:58:01][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 07:58:01][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 07:58:01][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 07:58:01][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 08:00:44][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 08:00:46][ERROR]: Foreign key (FK_CAT_PRD_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID) constraint fails. Orphan records id: 903 from `catalog_product_entity_int`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 08:00:46][ERROR]: Foreign key (FK_EAV_ATTRIBUTE_ENTITY_TYPE_ID_EAV_ENTITY_TYPE_ENTITY_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 08:00:46][ERROR]: Foreign key (FK_EAV_ATTR_SET_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute_set`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 08:00:46][ERROR]: Foreign key (FK_EAV_ENTITY_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 202,213,706,732,903,944 from `eav_entity_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 08:00:46][ERROR]: Foreign key (FK_TAG_FIRST_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID) constraint fails. Orphan records id: 0 from `tag`.`first_customer_id` has no referenced records in `customer_entity`
+[2019-09-27 08:00:46][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 08:00:46][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 08:00:46][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 08:00:50][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 08:00:50][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 08:00:50][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 08:00:50][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 08:00:50][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 08:00:50][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 08:00:50][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 08:00:50][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 08:00:50][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 08:02:09][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 08:02:11][ERROR]: Foreign key (FK_CAT_PRD_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID) constraint fails. Orphan records id: 903 from `catalog_product_entity_int`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 08:02:11][ERROR]: Foreign key (FK_EAV_ATTRIBUTE_ENTITY_TYPE_ID_EAV_ENTITY_TYPE_ENTITY_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 08:02:11][ERROR]: Foreign key (FK_EAV_ATTR_SET_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute_set`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 08:02:11][ERROR]: Foreign key (FK_EAV_ENTITY_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 202,213,706,732,903,944 from `eav_entity_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 08:02:11][ERROR]: Foreign key (FK_TAG_FIRST_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID) constraint fails. Orphan records id: 0 from `tag`.`first_customer_id` has no referenced records in `customer_entity`
+[2019-09-27 08:02:11][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 08:02:11][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 08:02:11][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 08:02:15][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 08:02:15][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 08:02:15][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 08:02:15][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 08:02:15][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 08:03:41][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 08:03:44][ERROR]: Foreign key (FK_CAT_PRD_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID) constraint fails. Orphan records id: 903 from `catalog_product_entity_int`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 08:03:44][ERROR]: Foreign key (FK_EAV_ATTRIBUTE_ENTITY_TYPE_ID_EAV_ENTITY_TYPE_ENTITY_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 08:03:44][ERROR]: Foreign key (FK_EAV_ATTR_SET_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute_set`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 08:03:44][ERROR]: Foreign key (FK_EAV_ENTITY_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 202,213,706,732,903,944 from `eav_entity_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 08:03:44][ERROR]: Foreign key (FK_TAG_FIRST_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID) constraint fails. Orphan records id: 0 from `tag`.`first_customer_id` has no referenced records in `customer_entity`
+[2019-09-27 08:03:44][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 08:03:44][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 08:03:44][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 08:03:47][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 08:03:47][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 08:03:47][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 08:03:47][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 08:03:47][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 08:03:47][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 08:03:47][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 08:03:47][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 08:03:47][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 08:07:17][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 08:07:19][ERROR]: Foreign key (FK_CAT_PRD_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID) constraint fails. Orphan records id: 903 from `catalog_product_entity_int`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-09-27 08:07:19][ERROR]: Foreign key (FK_EAV_ATTRIBUTE_ENTITY_TYPE_ID_EAV_ENTITY_TYPE_ENTITY_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 08:07:19][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 08:07:19][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 08:07:19][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 08:07:23][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 08:07:23][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 08:07:23][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 08:07:23][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 08:07:23][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 08:07:23][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 08:07:23][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 08:07:23][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 08:07:23][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 08:11:27][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 08:11:30][ERROR]: Foreign key (FK_EAV_ATTRIBUTE_ENTITY_TYPE_ID_EAV_ENTITY_TYPE_ENTITY_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-09-27 08:11:30][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 08:11:30][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 08:11:30][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 08:11:33][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 08:11:33][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 08:11:33][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 08:11:33][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 08:11:33][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 08:11:33][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 08:11:33][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 08:11:33][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 08:11:33][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 08:12:18][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 08:12:20][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 08:12:20][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 08:12:20][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 08:12:24][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 08:12:24][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 08:12:24][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 08:12:24][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 08:12:24][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 08:12:24][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 08:12:24][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 08:12:24][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 08:12:24][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 08:20:49][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 08:20:51][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 08:20:51][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 08:20:52][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 08:20:55][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 08:20:55][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 08:20:55][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 08:20:55][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 08:20:55][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 08:20:55][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 08:20:55][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 08:20:55][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 08:20:55][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 08:28:48][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 08:28:51][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 08:28:51][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 08:28:51][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 08:28:55][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 08:28:55][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 08:28:55][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 08:28:55][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 08:28:55][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 08:28:55][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 08:28:55][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 08:28:55][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 08:28:55][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 08:29:24][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 08:29:26][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 08:29:27][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 08:29:27][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 08:29:30][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 08:29:30][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 08:29:30][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 08:29:30][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 08:29:30][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 08:29:30][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 08:29:30][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 08:29:30][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 08:29:30][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 08:30:41][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 08:30:43][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 08:30:43][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 08:30:44][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 08:30:47][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 08:30:47][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 08:30:47][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 08:30:47][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 08:30:47][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 08:30:47][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 08:30:47][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 08:30:47][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 08:30:47][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 08:31:28][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 08:31:30][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 08:31:31][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 08:31:31][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 08:31:34][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 08:31:34][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 08:31:34][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 08:31:34][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 08:31:34][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 08:31:34][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 08:31:34][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 08:31:34][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 08:31:34][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 08:35:42][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 08:35:44][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 08:35:45][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 08:35:45][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 08:35:48][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 08:35:48][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 08:35:48][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 08:35:48][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 08:35:48][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 08:35:48][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 08:35:48][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 08:35:48][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 08:35:48][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 08:36:17][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 08:36:19][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 08:36:19][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 08:36:19][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 08:36:23][ERROR]: Source documents are not mapped: aw_blog_tags,bestsellerproducts,blog_category_entity,blog_category_entity_datetime,blog_category_entity_int,blog_category_entity_text,blog_category_entity_varchar,blog_category_post,blog_category_post_index,blog_comment,blog_eav_attribute,blog_post_entity,blog_post_entity_datetime,blog_post_entity_int,blog_post_entity_text,blog_post_entity_varchar,blog_post_link,blog_post_link_attribute,blog_post_link_attribute_int,blog_post_link_type,blog_tag,blog_tag_post,blog_url_rewrite,core_store_bk1,dynamicproducts,em_multideal,em_multideal_store,em_slideshow2_slider,label_css_entity,label_css_entity_text,label_eav_attribute,label_entity,label_entity_int,label_entity_text,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 08:36:23][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 08:36:23][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 08:36:23][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 08:36:23][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 08:36:23][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 08:36:23][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 08:36:23][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 08:36:23][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 08:42:09][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 08:42:11][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 08:42:11][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 08:42:11][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 08:42:14][ERROR]: Source documents are not mapped: blog_category_post_index,blog_url_rewrite,label_css_entity,label_entity_varchar,ln_filter,ln_option,megamenupro,newproducts,onepay,recentreviewproducts,saleproducts,themeframework_area,themeframework_area_store,themeframework_page,themeframework_page_store
+[2019-09-27 08:42:14][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 08:42:14][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 08:42:14][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 08:42:14][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 08:42:14][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 08:42:14][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 08:42:14][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 08:42:14][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 08:46:16][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 08:46:19][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 08:46:19][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 08:46:19][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 08:46:22][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 08:46:22][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 08:46:22][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 08:46:23][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 08:46:23][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 08:46:23][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 08:46:23][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 08:46:23][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 08:52:30][INFO][mode: settings][stage: integrity check][step: Settings Step]: started
+[2019-09-27 08:52:30][INFO][mode: settings][stage: integrity check][step: Stores Step]: started
+[2019-09-27 08:52:30][INFO][mode: settings][stage: data migration][step: Settings Step]: started
+[2019-09-27 08:55:43][INFO][mode: settings][stage: integrity check][step: Settings Step]: started
+[2019-09-27 08:55:43][INFO][mode: settings][stage: integrity check][step: Stores Step]: started
+[2019-09-27 08:55:43][INFO][mode: settings][stage: data migration][step: Settings Step]: started
+[2019-09-27 08:58:21][INFO][mode: settings][stage: integrity check][step: Settings Step]: started
+[2019-09-27 08:58:21][INFO][mode: settings][stage: integrity check][step: Stores Step]: started
+[2019-09-27 08:58:21][INFO][mode: settings][stage: data migration][step: Settings Step]: started
+[2019-09-27 08:59:00][INFO][mode: settings][stage: data migration][step: Stores Step]: started
+[2019-09-27 08:59:01][INFO][mode: settings][stage: volume check][step: Stores Step]: started
+[2019-09-27 08:59:01][INFO][mode: settings][stage: volume check][step: Stores Step]: Migration completed
+[2019-09-27 08:59:17][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 08:59:19][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 08:59:20][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 08:59:20][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 08:59:23][ERROR]: Destination documents are not mapped: giftcard_code,giftcard_history,mageplaza_blog_author,mageplaza_blog_category,mageplaza_blog_comment,mageplaza_blog_comment_like,mageplaza_blog_post,mageplaza_blog_post_category,mageplaza_blog_post_product,mageplaza_blog_post_tag,mageplaza_blog_post_topic,mageplaza_blog_post_traffic,mageplaza_blog_tag,mageplaza_blog_topic,mst_blog_author,mst_blog_category_entity,mst_blog_category_entity_datetime,mst_blog_category_entity_decimal,mst_blog_category_entity_gallery,mst_blog_category_entity_int,mst_blog_category_entity_text,mst_blog_category_entity_varchar,mst_blog_category_post,mst_blog_post_entity,mst_blog_post_entity_datetime,mst_blog_post_entity_decimal,mst_blog_post_entity_gallery,mst_blog_post_entity_int,mst_blog_post_entity_text,mst_blog_post_entity_varchar,mst_blog_post_product,mst_blog_store_post,mst_blog_tag,mst_blog_tag_post
+[2019-09-27 08:59:23][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 08:59:23][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 08:59:23][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 08:59:23][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 08:59:23][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 08:59:23][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 08:59:23][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 09:08:58][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 09:09:01][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 09:09:01][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 09:09:01][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 09:09:04][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 09:09:04][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 09:09:04][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 09:09:04][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 09:09:04][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 09:09:04][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 09:09:04][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 09:09:04][INFO][mode: data][stage: setup triggers][step: Stage]: started
+[2019-09-27 09:09:26][INFO][mode: data][stage: data migration][step: EAV Step]: started
+[2019-09-27 09:13:45][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 09:13:47][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 09:13:48][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 09:13:48][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 09:13:51][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 09:13:51][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 09:13:51][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 09:13:51][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 09:13:51][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 09:13:51][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 09:13:51][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 09:13:51][INFO][mode: data][stage: setup triggers][step: Stage]: started
+[2019-09-27 09:14:02][INFO][mode: data][stage: data migration][step: EAV Step]: started
+[2019-09-27 09:15:16][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 09:15:18][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 09:15:18][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 09:15:18][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 09:15:21][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 09:15:21][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 09:15:21][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 09:15:22][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 09:15:22][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 09:15:22][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 09:15:22][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 09:15:22][INFO][mode: data][stage: setup triggers][step: Stage]: started
+[2019-09-27 09:15:33][INFO][mode: data][stage: data migration][step: EAV Step]: started
+[2019-09-27 09:18:50][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 09:18:52][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 09:18:52][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 09:18:52][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 09:18:55][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 09:18:55][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 09:18:55][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 09:18:55][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 09:18:55][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 09:18:55][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 09:18:55][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 09:18:55][INFO][mode: data][stage: setup triggers][step: Stage]: started
+[2019-09-27 09:19:06][INFO][mode: data][stage: data migration][step: EAV Step]: started
+[2019-09-27 09:22:45][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 09:22:47][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 09:22:47][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 09:22:47][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 09:22:50][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 09:22:50][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 09:22:50][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 09:22:50][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 09:22:50][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 09:22:50][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 09:22:50][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 09:22:50][INFO][mode: data][stage: setup triggers][step: Stage]: started
+[2019-09-27 09:23:01][INFO][mode: data][stage: data migration][step: EAV Step]: started
+[2019-09-27 09:37:44][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 09:37:47][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 09:37:47][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 09:37:47][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 09:37:50][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 09:37:50][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 09:37:50][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 09:37:50][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 09:37:50][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 09:37:50][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 09:37:50][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 09:37:50][INFO][mode: data][stage: setup triggers][step: Stage]: started
+[2019-09-27 09:38:01][INFO][mode: data][stage: data migration][step: EAV Step]: started
+[2019-09-27 09:40:44][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 09:40:46][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 09:40:46][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 09:40:46][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 09:40:49][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 09:40:49][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 09:40:49][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 09:40:49][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 09:40:49][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 09:40:49][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 09:40:49][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 09:40:49][INFO][mode: data][stage: setup triggers][step: Stage]: started
+[2019-09-27 09:41:01][INFO][mode: data][stage: data migration][step: EAV Step]: started
+[2019-09-27 09:44:24][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 09:44:26][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 09:44:26][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 09:44:27][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 09:44:30][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 09:44:30][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 09:44:30][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 09:44:30][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 09:44:30][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 09:44:30][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 09:44:30][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 09:44:30][INFO][mode: data][stage: setup triggers][step: Stage]: started
+[2019-09-27 09:44:41][INFO][mode: data][stage: data migration][step: EAV Step]: started
+[2019-09-27 09:47:38][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 09:47:40][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 09:47:40][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 09:47:40][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 09:47:43][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 09:47:43][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 09:47:43][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 09:47:43][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 09:47:43][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 09:47:43][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 09:47:43][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 09:47:43][INFO][mode: data][stage: setup triggers][step: Stage]: started
+[2019-09-27 09:47:54][INFO][mode: data][stage: data migration][step: EAV Step]: started
+[2019-09-27 09:49:46][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 09:49:48][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 09:49:48][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 09:49:49][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 09:49:52][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 09:49:52][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 09:49:52][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 09:49:52][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 09:49:52][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 09:49:52][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 09:49:52][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 09:49:52][INFO][mode: data][stage: setup triggers][step: Stage]: started
+[2019-09-27 09:50:03][INFO][mode: data][stage: data migration][step: EAV Step]: started
+[2019-09-27 09:52:27][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-09-27 09:52:30][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-09-27 09:52:30][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-09-27 09:52:30][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-09-27 09:52:33][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-09-27 09:52:33][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-09-27 09:52:33][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-09-27 09:52:33][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-09-27 09:52:33][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-09-27 09:52:33][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-09-27 09:52:33][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
+[2019-09-27 09:52:33][INFO][mode: data][stage: setup triggers][step: Stage]: started
+[2019-09-27 09:52:44][INFO][mode: data][stage: data migration][step: EAV Step]: started
+[2019-10-01 01:28:39][INFO][mode: settings][stage: integrity check][step: Settings Step]: started
+[2019-10-01 01:28:39][INFO][mode: settings][stage: integrity check][step: Stores Step]: started
+[2019-10-01 01:28:40][INFO][mode: settings][stage: data migration][step: Settings Step]: started
+[2019-10-01 01:29:23][INFO][mode: settings][stage: data migration][step: Stores Step]: started
+[2019-10-01 01:29:24][INFO][mode: settings][stage: volume check][step: Stores Step]: started
+[2019-10-01 01:29:24][INFO][mode: settings][stage: volume check][step: Stores Step]: Migration completed
+[2019-10-01 01:32:08][INFO][mode: data][stage: integrity check][step: Data Integrity Step]: started
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_BLOG_CATEGORY_ENTITY_DATETIME_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `blog_category_entity_datetime`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_BLOG_CATEGORY_ENTITY_INT_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `blog_category_entity_int`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_BLOG_CATEGORY_ENTITY_TEXT_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `blog_category_entity_text`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_BLOG_CATEGORY_ENTITY_VARCHAR_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `blog_category_entity_varchar`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_BLOG_POST_ENTITY_DATETIME_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `blog_post_entity_datetime`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_BLOG_POST_ENTITY_INT_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `blog_post_entity_int`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_BLOG_POST_ENTITY_TEXT_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `blog_post_entity_text`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_BLOG_POST_ENTITY_VARCHAR_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `blog_post_entity_varchar`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CATALOG_CATEGORY_ENTITY_DATETIME_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `catalog_category_entity_datetime`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CATALOG_CATEGORY_ENTITY_DECIMAL_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `catalog_category_entity_decimal`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CATALOG_CATEGORY_ENTITY_INT_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `catalog_category_entity_int`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CATALOG_CATEGORY_ENTITY_TEXT_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `catalog_category_entity_text`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CATALOG_CATEGORY_ENTITY_VARCHAR_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `catalog_category_entity_varchar`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CATALOG_EAV_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 903 from `catalog_eav_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CATALOG_PRODUCT_ENTITY_DATETIME_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `catalog_product_entity_datetime`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CATALOG_PRODUCT_ENTITY_DECIMAL_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `catalog_product_entity_decimal`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CATALOG_PRODUCT_ENTITY_INT_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `catalog_product_entity_int`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CAT_PRD_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID) constraint fails. Orphan records id: 903 from `catalog_product_entity_int`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CAT_PRD_ENTT_MDA_GLR_VAL_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `catalog_product_entity_media_gallery_value`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CATALOG_PRODUCT_ENTITY_TEXT_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `catalog_product_entity_text`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_6E08D719F0501DD1D8E6D4EFF2511C85) constraint fails. Orphan records id: 0 from `catalog_product_entity_tier_price`.`customer_group_id` has no referenced records in `customer_group`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CAT_PRD_ENTT_TIER_PRICE_WS_ID_CORE_WS_WS_ID) constraint fails. Orphan records id: 0 from `catalog_product_entity_tier_price`.`website_id` has no referenced records in `core_website`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CATALOG_PRODUCT_ENTITY_VARCHAR_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `catalog_product_entity_varchar`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CAT_PRD_IDX_PRICE_CSTR_GROUP_ID_CSTR_GROUP_CSTR_GROUP_ID) constraint fails. Orphan records id: 0 from `catalog_product_index_price`.`customer_group_id` has no referenced records in `customer_group`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CATRULE_CSTR_GROUP_CSTR_GROUP_ID_CSTR_GROUP_CSTR_GROUP_ID) constraint fails. Orphan records id: 0 from `catalogrule_customer_group`.`customer_group_id` has no referenced records in `customer_group`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CATRULE_PRD_CSTR_GROUP_ID_CSTR_GROUP_CSTR_GROUP_ID) constraint fails. Orphan records id: 0 from `catalogrule_product`.`customer_group_id` has no referenced records in `customer_group`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CHECKOUT_AGREEMENT_STORE_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `checkout_agreement_store`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CMS_BLOCK_STORE_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `cms_block_store`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CMS_PAGE_STORE_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `cms_page_store`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CORE_LAYOUT_LINK_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `core_layout_link`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CORE_LYT_LNK_LYT_UPDATE_ID_CORE_LYT_UPDATE_LYT_UPDATE_ID) constraint fails. Orphan records id: 41 from `core_layout_link`.`layout_update_id` has no referenced records in `core_layout_update`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CORE_STORE_GROUP_ID_CORE_STORE_GROUP_GROUP_ID) constraint fails. Orphan records id: 0 from `core_store`.`group_id` has no referenced records in `core_store_group`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CORE_STORE_WEBSITE_ID_CORE_WEBSITE_WEBSITE_ID) constraint fails. Orphan records id: 0 from `core_store`.`website_id` has no referenced records in `core_website`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CORE_STORE_GROUP_WEBSITE_ID_CORE_WEBSITE_WEBSITE_ID) constraint fails. Orphan records id: 0 from `core_store_group`.`website_id` has no referenced records in `core_website`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_CORE_TRANSLATE_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `core_translate`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_EAV_ATTRIBUTE_ENTITY_TYPE_ID_EAV_ENTITY_TYPE_ENTITY_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_EAV_ATTRIBUTE_OPTION_VALUE_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `eav_attribute_option_value`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_EAV_ATTR_SET_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID) constraint fails. Orphan records id: 19,21 from `eav_attribute_set`.`entity_type_id` has no referenced records in `eav_entity_type`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_EAV_ENTITY_ATTRIBUTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID) constraint fails. Orphan records id: 202,213,706,732,903,944 from `eav_entity_attribute`.`attribute_id` has no referenced records in `eav_attribute`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_EAV_FORM_FIELDSET_LABEL_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `eav_form_fieldset_label`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_EAV_FORM_TYPE_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `eav_form_type`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_EM_MULTIDEAL_STORE_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `em_multideal_store`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_LABEL_ENTITY_INT_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `label_entity_int`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_LABEL_ENTITY_TEXT_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `label_entity_text`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_LABEL_ENTITY_VARCHAR_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `label_entity_varchar`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_POLL_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `poll`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_RATING_OPTION_VOTE_AGGREGATED_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `rating_option_vote_aggregated`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_RATING_STORE_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `rating_store`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_REVIEW_ENTITY_SUMMARY_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `review_entity_summary`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_REVIEW_STORE_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `review_store`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_SALESRULE_CSTR_GROUP_CSTR_GROUP_ID_CSTR_GROUP_CSTR_GROUP_ID) constraint fails. Orphan records id: 0 from `salesrule_customer_group`.`customer_group_id` has no referenced records in `customer_group`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_TAG_FIRST_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID) constraint fails. Orphan records id: 0 from `tag`.`first_customer_id` has no referenced records in `customer_entity`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_TAG_FIRST_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `tag`.`first_store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_THEMEFRAMEWORK_AREA_STORE_STORE_ID_CORE_STORE_STORE_ID) constraint fails. Orphan records id: 0 from `themeframework_area_store`.`store_id` has no referenced records in `core_store`
+[2019-10-01 01:32:13][ERROR]: Foreign key (FK_WEEE_DISCOUNT_CSTR_GROUP_ID_CSTR_GROUP_CSTR_GROUP_ID) constraint fails. Orphan records id: 0 from `weee_discount`.`customer_group_id` has no referenced records in `customer_group`
+[2019-10-01 01:32:13][INFO][mode: data][stage: integrity check][step: EAV Step]: started
+[2019-10-01 01:32:13][INFO][mode: data][stage: integrity check][step: Customer Attributes Step]: started
+[2019-10-01 01:32:14][INFO][mode: data][stage: integrity check][step: Map Step]: started
+[2019-10-01 01:32:17][ERROR]: Source documents are not mapped: aw_blog,aw_blog_cat,aw_blog_cat_store,aw_blog_comment,aw_blog_post_cat,aw_blog_store
+[2019-10-01 01:32:17][ERROR]: Destination documents are not mapped: catalog_eav_attribute_copy1,catalog_product_index_eav_copy1,catalog_product_index_eav_decimal_copy1,catalog_product_index_eav_decimal_idx_copy1,catalog_product_index_eav_decimal_tmp_copy1,catalog_product_index_eav_idx_copy1,catalog_product_index_eav_tmp_copy1,customer_eav_attribute_copy1,customer_eav_attribute_website_copy1,giftcard_code,giftcard_history
+[2019-10-01 01:32:17][INFO][mode: data][stage: integrity check][step: Url Rewrite Step]: started
+[2019-10-01 01:32:17][INFO][mode: data][stage: integrity check][step: Log Step]: started
+[2019-10-01 01:32:17][INFO][mode: data][stage: integrity check][step: Ratings Step]: started
+[2019-10-01 01:32:17][INFO][mode: data][stage: integrity check][step: ConfigurablePrices step]: started
+[2019-10-01 01:32:17][INFO][mode: data][stage: integrity check][step: OrderGrids Step]: started
+[2019-10-01 01:32:17][INFO][mode: data][stage: integrity check][step: Tier Price Step]: started
+[2019-10-01 01:32:17][INFO][mode: data][stage: integrity check][step: SalesIncrement Step]: started
