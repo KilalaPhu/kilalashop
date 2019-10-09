@@ -4138,3 +4138,673 @@ Line: 644
 [2019-10-08 08:46:12] main.INFO: Broken reference: the 'banner-sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
 [2019-10-08 08:46:12] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
 [2019-10-08 08:46:12] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:21:49] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_628140b7f6cd934bc87d40efca23b7e44 and handles default, cms_index_index, cms_page_view, cms_index_index_id_home-demo-01: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:21:49] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:21:49] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:21:49] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:21:49] main.INFO: Broken reference: the 'product-sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:21:49] main.INFO: Broken reference: the 'banner-sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:21:49] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:21:49] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:23:24] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:23:24] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:23:45] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:23:45] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:23:59] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:23:59] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:24:13] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:24:13] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:24:26] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:24:27] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:24:40] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:24:40] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:24:52] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:24:52] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:25:06] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:25:06] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:25:19] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:25:19] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:25:36] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:25:36] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:25:51] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:25:52] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:26:06] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:26:07] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:26:20] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:26:20] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:26:32] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:26:32] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:26:45] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:26:45] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:26:57] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:26:58] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:27:10] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:27:10] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:27:22] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:27:22] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:27:46] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_628140b7f6cd934bc87d40efca23b7e44 and handles default, cms_index_index, cms_page_view, cms_index_index_id_home-demo-01: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:27:46] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:27:46] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:27:46] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:27:46] main.INFO: Broken reference: the 'product-sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:27:46] main.INFO: Broken reference: the 'banner-sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:27:46] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:27:46] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:28:01] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:28:01] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:28:14] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:28:14] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:28:28] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:28:28] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:28:41] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:28:41] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:28:54] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:28:54] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:29:06] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:29:06] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:29:18] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:29:18] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:29:30] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:29:30] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:29:42] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:29:42] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:29:54] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:29:54] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:30:06] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:30:06] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:30:18] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:30:18] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:30:30] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:30:30] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:30:42] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:30:42] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:30:54] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:30:54] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:31:06] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:31:06] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:31:19] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:31:19] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:31:31] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_628140b7f6cd934bc87d40efca23b7e44 and handles default, cms_index_index, cms_page_view, cms_index_index_id_home-demo-01: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:31:31] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:31:31] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:31:31] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:31:31] main.INFO: Broken reference: the 'product-sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:31:31] main.INFO: Broken reference: the 'banner-sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:31:31] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:31:31] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:31:45] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_628140b7f6cd934bc87d40efca23b7e44 and handles default, cms_index_index, cms_page_view, cms_index_index_id_home-demo-01: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:31:45] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:31:45] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:31:45] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:31:45] main.INFO: Broken reference: the 'product-sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:31:45] main.INFO: Broken reference: the 'banner-sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:31:45] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:31:45] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:32:00] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:32:01] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:32:13] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:32:13] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:32:25] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:32:25] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:32:37] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:32:37] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:32:49] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:32:49] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:33:01] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:33:01] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:33:13] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:33:13] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:33:26] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:33:26] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:33:38] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:33:39] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:33:51] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_628140b7f6cd934bc87d40efca23b7e44 and handles default, cms_index_index, cms_page_view, cms_index_index_id_home-demo-01: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:33:51] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:33:51] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:33:51] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:33:51] main.INFO: Broken reference: the 'product-sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:33:51] main.INFO: Broken reference: the 'banner-sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:33:51] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:33:51] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2019-10-09 01:34:07] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:34:07] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:34:20] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:34:20] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:34:34] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:34:34] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:34:47] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:34:47] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:35:05] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:35:05] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:35:23] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:35:23] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:35:42] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:35:43] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:36:03] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:36:03] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:36:31] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:36:32] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:37:03] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:37:03] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:37:28] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:37:28] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:37:55] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:37:55] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:38:18] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:38:18] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:38:39] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:38:40] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
+[2019-10-09 01:38:56] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE3_664f7cbd6294e40256ecc52fd4711dd60 and handles default, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 643
+
+Element 'script', attribute 'data-requirecontext': The attribute 'data-requirecontext' is not allowed.
+Line: 644
+
+Element 'script', attribute 'data-requiremodule': The attribute 'data-requiremodule' is not allowed.
+Line: 644
+ [] []
+[2019-10-09 01:38:56] main.INFO: Broken reference: the 'div.sidebar.main' tries to reorder itself towards 'main', but their parents are different: 'div.sidebar' and 'div.col-main' respectively. [] []
